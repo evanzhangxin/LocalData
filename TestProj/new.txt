@@ -1,8 +1,8 @@
-this is a test file, let's try to check whether there will be any conflicts
+this is a test file, no conflict, let's try to check whether there will be any conflicts
 
 
 Compare The Scrape Result Difference
-In directory ComputeYPIDStats in the tool folder, run the following command:
+In directory ComputeYPIDStats in the tool folder, no conflict, run the following command:
 ComputeYPIDStats.exe /scrapeID:975831 /scrapeID:975905 /position:1 /positionWise:true
 
 
