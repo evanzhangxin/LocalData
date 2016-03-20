@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addSafeImportsUsage" xml:space="preserve">
+    <value>Add Imports to Safe Import list in Registry</value>
+  </data>
+  <data name="devenvUsage" xml:space="preserve">
+    <value>Specify the path to the VS development environment exe (overrides VSDEVENV env var and registry key for launcher).</value>
+  </data>
+  <data name="errorUsage" xml:space="preserve">
+    <value>Used to turn errors on and off. Prefix name with - to turn off. "none", "default", and "all" can be used as well.</value>
+  </data>
+  <data name="fileUsage" xml:space="preserve">
+    <value>Specify files and directories to operate on.</value>
+  </data>
+  <data name="fixToolsVersionUsage" xml:space="preserve">
+    <value>Fix the tools version of the project files being loaded to correspond with the target visual studio version.</value>
+  </data>
+  <data name="hiveUsage" xml:space="preserve">
+    <value>Opens VS in EXP hive mode.</value>
+  </data>
+  <data name="nestUsage" xml:space="preserve">
+    <value>Create nested solution folders that mirror the filesystem.</value>
+  </data>
+  <data name="noLaunchUsage" xml:space="preserve">
+    <value>Don't launch VS, just create the .sln file.</value>
+  </data>
+  <data name="noSkipRefsUsage" xml:space="preserve">
+    <value>Don't skip referenced projects with ReferenceOutputAssembly set to False.</value>
+  </data>
+  <data name="outputUsage" xml:space="preserve">
+    <value>Specifies the output file name (overrides /w).</value>
+  </data>
+  <data name="purgeUsage" xml:space="preserve">
+    <value>Deletes temporary files created by slngen.</value>
+  </data>
+  <data name="quietUsage" xml:space="preserve">
+    <value>Quiet: don't print warnings about projects.</value>
+  </data>
+  <data name="recurseUsage" xml:space="preserve">
+    <value>Recurse on the specified directory.</value>
+  </data>
+  <data name="runUsage" xml:space="preserve">
+    <value>Build and run the current project inside VS.</value>
+  </data>
+  <data name="sourceDepotUsage" xml:space="preserve">
+    <value>Use Location-Based Source Control.</value>
+  </data>
+  <data name="useCurrentUsage" xml:space="preserve">
+    <value>Write the new .sln file in the current directory.</value>
+  </data>
+  <data name="validateUsage" xml:space="preserve">
+    <value>Do additional validation checks on a group of projects.</value>
+  </data>
+  <data name="verboseUsage" xml:space="preserve">
+    <value>Verbosely describe what is happening.</value>
+  </data>
+  <data name="vsmsbuildUsage" xml:space="preserve">
+    <value>Run VSMSBuild instead of VS</value>
+  </data>
+  <data name="vsverUsage" xml:space="preserve">
+    <value>Specify the version of VS to use (default is autodetect from highest version).</value>
+  </data>
+</root>
