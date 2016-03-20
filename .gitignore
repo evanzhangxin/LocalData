@@ -32,3 +32,11 @@
 
 #debug files
 *.pdb
+
+#exclude build folders
+bin
+obj
+packages
+
+#user files
+*.user
