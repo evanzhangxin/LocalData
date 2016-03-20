@@ -29,3 +29,6 @@
 
 #bak files
 *.bak
+
+#debug files
+*.pdb
