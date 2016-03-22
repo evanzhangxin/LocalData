@@ -170,9 +170,9 @@ namespace SlnGen
 
                 if (ver == "0") // Auto detect
                 {
-                    if (Registry.GetValue(@"HKEY_CLASSES_ROOT\VisualStudio.sln.12.0", null, null) != null)
+                    if (Registry.GetValue(@"HKEY_CLASSES_ROOT\VisualStudio.sln.14.0", null, null) != null)
                     {
-                        ver = "12";
+                        ver = "14";
                     }
                     else if (Registry.GetValue(@"HKEY_CLASSES_ROOT\VisualStudio.sln.11.0", null, null) != null)
                     {
@@ -182,9 +182,9 @@ namespace SlnGen
                     {
                         ver = "10";
                     }
-                    else if (Registry.GetValue(@"HKEY_CLASSES_ROOT\VisualStudio.sln.14.0", null, null) != null)
+                    else if (Registry.GetValue(@"HKEY_CLASSES_ROOT\VisualStudio.sln.12.0", null, null) != null)
                     {
-                        ver = "14";
+                        ver = "12";
                     }
                     else // looks like no VS installed. By default we choose VS 2010
                     {
